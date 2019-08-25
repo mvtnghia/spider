@@ -96,7 +96,7 @@ function buildWordFamily($wordFamily, $rootPath) {
     }
     return implode(', ', $result);
 }
-$words = handleInputData('570');
+$words = handleInputData('word_list');
 $rootPath = "body div[id=ox-container] div[id=main_column] div[id=main-container] div[id=entryContent] ";
 $delimiter = "@";
 $result = [];
